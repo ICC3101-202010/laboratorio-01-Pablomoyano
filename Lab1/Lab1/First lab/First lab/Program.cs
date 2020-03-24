@@ -6,9 +6,11 @@ namespace First_lab
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
-            person.name = "Bob";
-            person.lastname = "Kunga";
+            Person BK = new Person();
+            BK.name = "Bob";
+            BK.lastname = "Kunga";
+            BK.Lanza();
+
         }
     }
 }
