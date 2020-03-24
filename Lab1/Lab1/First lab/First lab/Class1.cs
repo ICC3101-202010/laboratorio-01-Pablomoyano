@@ -8,8 +8,11 @@ namespace First_lab
     {
         public string name;
         public string lastname;
+        public Person() 
+        { name = "Bob";
+            lastname = "Kunga";       }
 
-        public static void Lanza()
+        public void Lanza()
             {Random rdnum = new Random();
              int rn = rdnum.Next(0,3);
             if (rn == 0)
